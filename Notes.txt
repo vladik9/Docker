@@ -1,0 +1,5 @@
+               # outside:inside container
+# docker run -p 3000:3000 node/node-app
+# docker build -t node/node-app .
+# docker ps  same as  docker container ls
+# docker ps --all same as docker ps -a
