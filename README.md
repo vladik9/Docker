@@ -52,6 +52,11 @@ Docker is a platform that enables developers to build, share, and run applicatio
   ```sh
   docker run -d -p 8080:80 --name my_container <image-name>
   ```
+
+  * **Run a container from an image with volumes and mapping of ports:**
+  ```sh
+  docker run  -p 3000:3000 -v app/node_modules -v $(pwd):/app containerId
+  ```
 * **List running containers:**
   ```sh
   docker ps
